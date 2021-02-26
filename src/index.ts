@@ -1,3 +1,12 @@
 #!/usr/bin/env node
 
-console.log('personal-npx-card');
+//* ------------------- DEPENDENCIES ------------------ *\\
+
+//* Module imports
+import drawCard from './lib/drawCard';
+import drawQuestions from './lib/drawQuestions';
+
+//* ------------------- PERSONAL CARD ----------------- *\\
+
+drawCard();
+drawQuestions();

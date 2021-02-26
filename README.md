@@ -1,6 +1,6 @@
 <div align="center">
   <h1>Personal NPX Card</h1>
-  <p>A customizable and personal npx business card for the terminal.</p>
+  <p>My personal npx business card for the terminal.</p>
   <br>
   <p>
     <a href="https://david-dm.org/DevTobias/personal-npx-card" title="dependencies status">
@@ -32,8 +32,21 @@ Type this command in your terminal to see my business card in action.
 ```bash
 npx devtobias
 ```
+If you want to customize it, just clone the repository:
 
+```bash
+git clone https://github.com/DevTobias/personal-npx-card.git
+```
 
+Open the project in the editor of your choice and configure the information contained in the `src/lib/config.ts` file to your personal needs. 
+
+Also change the name to yours in the `package.json` file. Afterwards your ready to publish it to npm with:
+
+```bash
+npm publish
+```
+
+Now everyone with npm installed can use the command to see your personal information!
 
 # Contributing
 
