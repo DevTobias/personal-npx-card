@@ -14,7 +14,7 @@
   "scripts": {
     "clean": "rimraf dist",
     "start": "tsc&& cd dist&& node index.js",
-    "build": "npm run clean&& npm run tsc"
+    "build": "npm run clean&& tsc"
   },
   "repository": {
     "type": "git",
